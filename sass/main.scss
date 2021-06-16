@@ -3,6 +3,8 @@
 
 //COMPONENTS
 @import "./components/social-link";
+@import "./components/modal";
+@import "./components/backdrop";
 
 //UTILS
 @import "./utils/visualy-hidden";
@@ -13,3 +15,5 @@
 @import "./layout/features";
 @import "./layout/activity";
 @import "./layout/team";
+@import "./layout/clients";
+@import "./layout/footer";
