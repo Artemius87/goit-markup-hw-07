@@ -1,0 +1,86 @@
+/* основной цвет текста #212121 */
+/* вторичный цвет текста #757575 */
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+/* контакты в футере rgba(255, 255, 255, 0.6); */
+
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --button-bg-color: #f5f4fa;
+}
+
+/* header */
+
+/* footer */
+
+.address {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 60px;
+}
+
+footer {
+  background-color: #2f303a;
+}
+
+.logo-footer {
+  display: inline-block;
+  padding-bottom: 20px;
+  padding-top: 60px;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--white-color);
+  text-decoration: none;
+}
+
+.office {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--white-color);
+}
+
+.mail-footer {
+  margin-top: 9px;
+  margin-bottom: 9px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mail-footer:hover,
+.mail-footer:focus {
+  color: var(--accent-color);
+}
+
+.tel-footer {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.tel-footer:hover,
+.tel-footer:focus {
+  color: var(--accent-color);
+}
+/*--- ICONS---*/
+
+.icon-contacts {
+  margin-right: 10px;
+}
