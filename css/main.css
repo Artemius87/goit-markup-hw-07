@@ -548,5 +548,8 @@ footer {
   line-height: 1.14;
   color: white;
 }
-
+.social-footer {
+  margin-right: 93px;
+  margin-left: 70px;
+}
 /*# sourceMappingURL=main.css.map */
