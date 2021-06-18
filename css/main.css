@@ -108,7 +108,7 @@ body {
 
 .social-link:hover {
   background-color: #2196f3;
-  --color5: $white-color;
+  --color5: #ffffff;
 }
 
 .list-item:not(:last-child) {
@@ -388,7 +388,7 @@ textarea::placeholder {
 
 .site-contacts .link:hover,
 .site-contacts .link:focus {
-  --color4: $accent-color;
+  --color4: #2196f3;
   color: #2196f3;
 }
 
@@ -602,7 +602,7 @@ textarea::placeholder {
 
 .clients-link:hover {
   border-color: #2196f3;
-  --color5: $accent-color;
+  --color5: #2196f3;
 }
 
 .clients-title {
