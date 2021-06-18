@@ -753,13 +753,13 @@ form-input-fotter::placeholder {
   border: 1px solid var(--accent-color);
 }
 
-.btnfly {
-  margin-left: 10px;
-}
-
 .btn-subscribe {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+}
+
+.btnfly {
+  margin-left: 10px;
 }
 /*# sourceMappingURL=main.css.map */

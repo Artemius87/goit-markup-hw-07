@@ -1,0 +1,36 @@
+.portfolio {
+  padding: 94px 0;
+}
+
+.portfolio .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+
+.portfolio .text {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--secondary-text-color);
+}
+
+.portfolio .list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.titles {
+  padding: 20px 24px;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.btn + .btn {
+  margin-left: 8px;
+}
