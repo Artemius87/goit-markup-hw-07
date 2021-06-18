@@ -3,7 +3,7 @@
   margin-bottom: 30px;
   width: 44px;
   height: 44px;
-  background-color: var(--white-color);
+  background-color: $white-color;
   text-decoration: none;
   border-radius: 50%;
   justify-content: center;
@@ -14,7 +14,7 @@
 
 .social-link:hover {
   background-color: #2196f3;
-  --color5: var(--white-color);
+  --color5: $white-color;
 }
 
 .list-item:not(:last-child) {

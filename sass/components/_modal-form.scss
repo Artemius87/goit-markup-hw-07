@@ -10,7 +10,7 @@
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
 }
 
 .form-input {
@@ -47,7 +47,7 @@ textarea::placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
 .label-policy .link {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 .form-title {
   margin-top: 11px;
@@ -75,16 +75,16 @@ textarea::placeholder {
 
 .form-input:focus {
   outline: none;
-  border: 1px solid var(--accent-color);
+  border: 1px solid $accent-color;
 }
 
 .form-input:focus + .input-icon {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 
 .textarea:focus {
   outline: none;
-  border: 1px solid var(--accent-color);
+  border: 1px solid $accent-color;
 }
 
 .label-policy {
@@ -104,7 +104,7 @@ textarea::placeholder {
   display: block;
   width: 16px;
   height: 15px;
-  border: 2px solid var(--primary-text-color);
+  border: 2px solid $primary-text-color;
   border-radius: 2px;
   margin-right: 8px;
 }

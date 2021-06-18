@@ -16,7 +16,7 @@ footer {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  color: var(--white-color);
+  color: $white-color;
   text-decoration: none;
 }
 
@@ -25,7 +25,7 @@ footer {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
-  color: var(--white-color);
+  color: $white-color;
 }
 
 .mail-footer {
@@ -43,7 +43,7 @@ footer {
 
 .mail-footer:hover,
 .mail-footer:focus {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .tel-footer {
@@ -59,11 +59,11 @@ footer {
 
 .tel-footer:hover,
 .tel-footer:focus {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .footer-link:hover {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 
 .footer-link {
@@ -108,7 +108,7 @@ footer {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  color: var(--white-color);
+  color: $white-color;
 }
 
 .form-input-fotter {
@@ -134,7 +134,7 @@ form-input-fotter::placeholder {
 
 .form-input-fotter:focus {
   outline: none;
-  border: 1px solid var(--accent-color);
+  border: 1px solid $accent-color;
 }
 
 .btn-subscribe {

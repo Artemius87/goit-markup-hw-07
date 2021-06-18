@@ -15,7 +15,7 @@ ul {
 
 body {
   background-color: #ffffff;
-  color: var(--primiry-text-color);
+  color: #212121;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
@@ -32,8 +32,8 @@ body {
   letter-spacing: 0.03em;
   border: none;
   text-align: center;
-  color: var(--primary-text-color);
-  background-color: var(--button-bg-color);
+  color: #212121;
+  background-color: #f5f4fa;
   border-radius: 4px;
   cursor: pointer;
   transition-duration: 250ms;
@@ -42,8 +42,8 @@ body {
 
 .button:hover,
 .button:focus {
-  background-color: var(--accent-color);
-  color: var(--white-color);
+  background-color: #2196f3;
+  color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
@@ -57,8 +57,8 @@ body {
   text-align: center;
   line-height: 1.87;
   cursor: pointer;
-  color: var(--white-color);
-  background-color: var(--accent-color);
+  color: #ffffff;
+  background-color: #2196f3;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition-duration: 250ms;
@@ -101,7 +101,7 @@ body {
 .logo-header {
   margin-right: 93px;
   font-family: Raleway, sans-serif;
-  color: var(--primary-text-color);
+  color: #212121;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -109,7 +109,7 @@ body {
 }
 
 .logo-color {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .site-nav {
@@ -122,7 +122,7 @@ body {
 
 .site-nav .link {
   display: block;
-  color: var(--primary-text-color);
+  color: #212121;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -134,12 +134,12 @@ body {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .site-nav .current {
   position: relative;
-  color: var(--accent-color);
+  color: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -152,7 +152,7 @@ body {
   border-radius: 50px;
   width: 100%;
   height: 4px;
-  background-color: var(--accent-color);
+  background-color: #2196f3;
 }
 
 .site-contacts {
@@ -169,7 +169,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--secondary-text-color);
+  color: #757575;
   text-decoration: none;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -177,8 +177,8 @@ body {
 
 .site-contacts .link:hover,
 .site-contacts .link:focus {
-  --color4: var(--accent-color);
-  color: var(--accent-color);
+  --color4: $accent-color;
+  color: #2196f3;
 }
 
 .icon-contacts {
@@ -203,7 +203,7 @@ footer {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  color: var(--white-color);
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -212,7 +212,7 @@ footer {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
-  color: var(--white-color);
+  color: #ffffff;
 }
 
 .mail-footer {
@@ -230,7 +230,7 @@ footer {
 
 .mail-footer:hover,
 .mail-footer:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .tel-footer {
@@ -246,11 +246,11 @@ footer {
 
 .tel-footer:hover,
 .tel-footer:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .footer-link:hover {
-  background-color: var(--accent-color);
+  background-color: #2196f3;
 }
 
 .footer-link {
@@ -295,7 +295,7 @@ footer {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  color: var(--white-color);
+  color: #ffffff;
 }
 
 .form-input-fotter {
@@ -321,7 +321,7 @@ form-input-fotter::placeholder {
 
 .form-input-fotter:focus {
   outline: none;
-  border: 1px solid var(--accent-color);
+  border: 1px solid #2196f3;
 }
 
 .btn-subscribe {
@@ -343,13 +343,13 @@ form-input-fotter::placeholder {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--primary-text-color);
+  color: #212121;
 }
 
 .portfolio .text {
   font-size: 16px;
   line-height: 1.87;
-  color: var(--secondary-text-color);
+  color: #757575;
 }
 
 .portfolio .list {
@@ -405,7 +405,7 @@ form-input-fotter::placeholder {
   letter-spacing: 0.03em;
   transform: translateY(100%);
   opacity: 0;
-  color: var(--white-color);
+  color: #ffffff;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -429,7 +429,7 @@ form-input-fotter::placeholder {
   margin-bottom: 30px;
   width: 44px;
   height: 44px;
-  background-color: var(--white-color);
+  background-color: #ffffff;
   text-decoration: none;
   border-radius: 50%;
   justify-content: center;
@@ -440,7 +440,7 @@ form-input-fotter::placeholder {
 
 .social-link:hover {
   background-color: #2196f3;
-  --color5: var(--white-color);
+  --color5: $white-color;
 }
 
 .list-item:not(:last-child) {
@@ -451,13 +451,5 @@ form-input-fotter::placeholder {
   width: 20px;
   height: 20px;
   fill: #afb1b8;
-}
-
-:root {
-  --primary-text-color: #212121;
-  --secondary-text-color: #757575;
-  --accent-color: #2196f3;
-  --white-color: #ffffff;
-  --button-bg-color: #f5f4fa;
 }
 /*# sourceMappingURL=portfolio.css.map */

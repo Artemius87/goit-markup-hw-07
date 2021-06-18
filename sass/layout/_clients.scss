@@ -27,8 +27,8 @@
 }
 
 .clients-link:hover {
-  border-color: var(--accent-color);
-  --color5: var(--accent-color);
+  border-color: $accent-color;
+  --color5: $accent-color;
 }
 
 .clients-title {
@@ -37,5 +37,5 @@
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
 }

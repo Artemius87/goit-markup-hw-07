@@ -1,3 +1,8 @@
+//UTILS
+@import "./utils/variabels";
+@import "./utils/visualy-hidden";
+
+//Base
 @import "./base/common";
 @import "./base/container";
 
@@ -6,10 +11,6 @@
 @import "./components/modal";
 @import "./components/backdrop";
 @import "./components/modal-form";
-
-//UTILS
-@import "./utils/visualy-hidden";
-@import "./utils/variabels";
 
 //LAYOUT
 @import "./layout/header";
