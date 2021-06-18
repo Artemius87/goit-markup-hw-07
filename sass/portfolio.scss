@@ -2,11 +2,15 @@
 @import "./base/common";
 @import "./base/container";
 
-//COMPONENTS
-@import "./components/social-link";
-
 //LAYOUT
+
 @import "./layout/header";
 @import "./layout/footer";
 @import "./layout/portfolio-filters";
 @import "./layout/portfolio-projects";
+
+//COMPONENTS
+@import "./components/social-link";
+
+//UTILS
+@import "./utils/variabels";

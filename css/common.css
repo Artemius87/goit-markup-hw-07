@@ -3,12 +3,3 @@
 /* белый #FFFFFF */
 /* акцент #2196F3 */
 /* контакты в футере rgba(255, 255, 255, 0.6); */
-
-:root {
-  --primary-text-color: #212121;
-  --secondary-text-color: #757575;
-  --accent-color: #2196f3;
-  --white-color: #ffffff;
-  --button-bg-color: #f5f4fa;
-}
-

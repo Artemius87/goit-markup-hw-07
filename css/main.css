@@ -292,6 +292,14 @@ textarea::placeholder {
   overflow: hidden;
 }
 
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --button-bg-color: #f5f4fa;
+}
+
 .header {
   border-bottom: 1px solid #ececec;
   padding: 24px 0 25px;
