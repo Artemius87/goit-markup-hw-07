@@ -136,3 +136,12 @@ form-input-fotter::placeholder {
   outline: none;
   border: 1px solid var(--accent-color);
 }
+
+.btnfly {
+  margin-left: 10px;
+}
+.btn-subscribe {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
