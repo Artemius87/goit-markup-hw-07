@@ -1,28 +1,28 @@
 .features {
   padding-top: 94px;
   padding-bottom: 94px;
-}
 
-.features .list {
-  display: flex;
-}
+  & .list {
+    display: flex;
+  }
 
-.features .title {
-  margin-bottom: 10px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  color: $primary-text-color;
-}
+  & .title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color: $primary-text-color;
+  }
 
-.features .text {
-  font-size: 14px;
-  line-height: 1.71;
-  color: $secondary-text-color;
-}
+  & .text {
+    font-size: 14px;
+    line-height: 1.71;
+    color: $secondary-text-color;
+  }
 
-.features .spec {
-  width: 270px;
+  & .spec {
+    width: 270px;
+  }
 }
 
 .spec + .spec {

@@ -23,6 +23,15 @@
 
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:focus {
+    outline: none;
+    border: 1px solid $accent-color;
+  }
+
+  &:focus + .input-icon {
+    fill: $accent-color;
+  }
 }
 
 .checkbox-modal {
@@ -41,6 +50,11 @@
   border-radius: 4px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:focus {
+    outline: none;
+    border: 1px solid $accent-color;
+  }
 }
 
 textarea::placeholder {
@@ -73,20 +87,6 @@ textarea::placeholder {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-input:focus {
-  outline: none;
-  border: 1px solid $accent-color;
-}
-
-.form-input:focus + .input-icon {
-  fill: $accent-color;
-}
-
-.textarea:focus {
-  outline: none;
-  border: 1px solid $accent-color;
-}
-
 .label-policy {
   display: flex;
   align-items: center;
@@ -97,16 +97,16 @@ textarea::placeholder {
   letter-spacing: 0.03em;
   margin-top: 20px;
   margin-bottom: 30px;
-}
 
-.label-policy::before {
-  content: "";
-  display: block;
-  width: 16px;
-  height: 15px;
-  border: 2px solid $primary-text-color;
-  border-radius: 2px;
-  margin-right: 8px;
+  &::before {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 15px;
+    border: 2px solid $primary-text-color;
+    border-radius: 2px;
+    margin-right: 8px;
+  }
 }
 
 .input-checkbox:checked + .label-policy::before {

@@ -1,9 +1,9 @@
 .activity {
   padding-bottom: 94px;
-}
 
-.activity .list {
-  display: flex;
+  & .list {
+    display: flex;
+  }
 }
 
 .example + .example {

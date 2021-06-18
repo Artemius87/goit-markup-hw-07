@@ -24,11 +24,11 @@
   fill: #afb1b8;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.clients-link:hover {
-  border-color: $accent-color;
-  --color5: #2196f3;
+  &:hover {
+    border-color: $accent-color;
+    --color5: #2196f3;
+  }
 }
 
 .clients-title {

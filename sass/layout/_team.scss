@@ -1,7 +1,3 @@
-.team .list {
-  display: flex;
-}
-
 .cards {
   background-color: $white-color;
   width: 270px;
@@ -11,16 +7,24 @@
   border-radius: 0px 0px 4px 4px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.cards + .cards {
-  margin-left: 30px;
+  & .social {
+    justify-content: center;
+  }
+
+  & + .cards {
+    margin-left: 30px;
+  }
 }
 
 .team {
   background-color: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
+
+  & .list {
+    display: flex;
+  }
 }
 
 .employee {
@@ -39,8 +43,4 @@
   line-height: 1.18;
   text-align: center;
   color: $secondary-text-color;
-}
-
-.cards .social {
-  justify-content: center;
 }

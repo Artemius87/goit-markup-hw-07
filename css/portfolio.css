@@ -40,8 +40,7 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button:hover,
-.button:focus {
+.button:hover, .button:focus {
   background-color: #2196f3;
   color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -65,8 +64,7 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-primary:hover,
-.button-primary:focus {
+.button-primary:hover, .button-primary:focus {
   background-color: #188ce8;
 }
 
@@ -144,7 +142,7 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.current::after {
+.site-nav .current::after {
   position: absolute;
   content: "";
   top: 45.5px;
@@ -228,8 +226,7 @@ footer {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mail-footer:hover,
-.mail-footer:focus {
+.mail-footer:hover, .mail-footer:focus {
   color: #2196f3;
 }
 
@@ -244,13 +241,8 @@ footer {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.tel-footer:hover,
-.tel-footer:focus {
+.tel-footer:hover, .tel-footer:focus {
   color: #2196f3;
-}
-
-.footer-link:hover {
-  background-color: #2196f3;
 }
 
 .footer-link {
@@ -264,6 +256,10 @@ footer {
   align-items: center;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-link:hover {
+  background-color: #2196f3;
 }
 
 .soc-footer {
@@ -311,7 +307,7 @@ footer {
   color: cornsilk;
 }
 
-form-input-fotter::placeholder {
+.form-input-fotter::placeholder {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
@@ -346,7 +342,7 @@ form-input-fotter::placeholder {
   color: #212121;
 }
 
-.portfolio .text {
+.portfolio.text {
   font-size: 16px;
   line-height: 1.87;
   color: #757575;
@@ -384,8 +380,7 @@ form-input-fotter::placeholder {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.projects:hover,
-.projects:focus {
+.projects:hover, .projects:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
